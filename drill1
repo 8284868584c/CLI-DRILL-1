@@ -1,0 +1,38 @@
+1 ) mkdir hello
+  cd hello
+  mkdir five
+  cd five
+  mkdir six
+  cd six
+  touch c.txt
+  mkdir seven
+  cd seven
+  touch error.log
+  cd ..
+  cd ..
+  cd ..
+  mkdir one
+  cd one
+  touch a.txt
+  touch b.txt
+  mkdir two 
+  cd two 
+  touch d.txt
+  mkdir three
+  cd three
+  touch e.txt
+  mkdir four
+  cd four
+  touch access.log
+  
+ 2 ) find . -type f -iname \*.log -delete
+  
+ 3 ) nano hello/one/a.txt
+  
+ 4 ) cd hello
+      rm -r five
+ 5 ) mv one uno
+ 
+ 6 ) mv uno/a.txt uno/two/
+ 
+
